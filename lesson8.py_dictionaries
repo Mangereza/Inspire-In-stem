@@ -1,0 +1,29 @@
+#!/usr/bin/python
+
+######################
+#   Dictionaries
+#   Name    : Stephanie Mangereza
+#   Date    : 23 /5 /2022
+######################
+
+#Intializing dictonaries
+#student={"Name":"Mangereza","age":"19","gender":"Female"}
+#print(student)
+#print(student["Name"])
+#print(student["age"])
+#print(student["gender"])
+#student["Id.No"]="3024968"
+#student["Hobby"]="swimming"
+#student["club"]="Man-city"
+#print(student["Id.No"])
+#print(student)
+#student2={}
+#student2["fav_food"]="kebab"
+#student2["home_city"]="Kajiado"
+#print(student2)
+#student["Name"]="John"
+#print(student["Name"])
+#student["age"]="20"
+#print(student["age"])
+#del student2["fav_food"]
+#print(student2)
