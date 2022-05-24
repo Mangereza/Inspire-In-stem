@@ -12,3 +12,5 @@
     print(number)
     print("\t")
     print(number**2)
+
+
