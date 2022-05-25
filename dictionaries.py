@@ -15,8 +15,16 @@ person['color']='Navy blue'
 #print(person)
 #deleting an item from a list
 del person['tel_number']
-print(type(person))
-print(person)
+#print(type(person))
+#print(person)
 #looping over dictionaries
 for key, value in person.items():
     print(f"{key}:{value}")
+
+colors=["red","green","blue","yellow"]
+i=0
+while i <len(colors):
+    if (colors[1]=='green'):
+        print(colors[1].upper())
+        i+=1
+
