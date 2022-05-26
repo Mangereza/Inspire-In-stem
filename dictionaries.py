@@ -19,12 +19,14 @@ del person['tel_number']
 #print(person)
 #looping over dictionaries
 for key, value in person.items():
-    print(f"{key}:{value}")
+    #print(f"{key}:{value}")
 
-colors=["red","green","blue","yellow"]
-i=0
-while i <len(colors):
-    if (colors[1]=='green'):
-        print(colors[1].upper())
-        i+=1
-
+#colors=["red","green","blue","yellow"]
+#i=0
+#while i <len(colors):
+    #if (colors[1]=='green'):
+        #print(colors[1].upper())
+       
+ print(person.get('Gender'))
+#using get to access the value in a dictionary
+print(person.get("password','the\'location\'key is non-existent"))
