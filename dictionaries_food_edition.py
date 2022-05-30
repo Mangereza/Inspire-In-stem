@@ -7,4 +7,7 @@ Food={
     'mary':['ugali','chicken','managu'],
     'jane':['chapo','chilli beef','soda'],
 }
-print(Food)
+for key, value in Food.items():
+    print(f"{key}:{value}")
+
+
