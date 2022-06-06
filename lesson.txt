@@ -1,0 +1,28 @@
+#!/usr/bin/python
+
+######################
+#   texts
+#   Name    : Stephanie Mangereza
+#   Date    : 06 /06 /2022
+######################
+
+
+This is a normal text file
+learning python is challenging
+today is a calm day
+
+open file   : file_name.open()
+write file  : .write
+append      : append()
+(add at the tail end of the file)
+close       : .close
+read        : .read()
+seek        : .seek('*')
+
+r   opens a file for reading. (default)
+w   opens a file for writing. creates a new file
+x   opens a file for exclusive creation. If the file already exists the operation fails
+a   opens a file for appending at the end of the 
+t   opens in text mode. (default)
+b   opens in binary mode.
++   opens a file for updating (reading and writing)
