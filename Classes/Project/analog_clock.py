@@ -60,73 +60,73 @@ def draw_clock(hr, mn, sec, pen):
     pen.penup()
     pen.hideturtle()
     pen.goto(170, 260)
-    pen.write("1", align="center", font=("Kalinga", 50, "bold"))
+    pen.write("1", align="center", font=("Kalinga", 25, "bold"))
 
     #number 2
     pen.penup()
     pen.hideturtle()
     pen.goto(300, 140)
-    pen.write("2", align="center", font=("Kalinga", 50, "bold"))
+    pen.write("2", align="center", font=("Kalinga", 25, "bold"))
 
     #number 3
     pen.penup()
     pen.hideturtle()
     pen.goto(340, -30)
-    pen.write("3", align="center", font=("Kalinga", 50, "bold"))
+    pen.write("3", align="center", font=("Kalinga", 25, "bold"))
 
     #number 4
     pen.penup()
     pen.hideturtle()
     pen.goto(300, -200)
-    pen.write("4", align="center", font=("Kalinga", 50, "bold"))
+    pen.write("4", align="center", font=("Kalinga", 25, "bold"))
 
     #number 5
     pen.penup()
     pen.hideturtle()
     pen.goto(170, -325)
-    pen.write("5", align="center", font=("Kalinga", 50, "bold"))
+    pen.write("5", align="center", font=("Kalinga", 25, "bold"))
 
     #number 6 
     pen.penup()
     pen.hideturtle()
     pen.goto(0, -370)
-    pen.write("6", align="center", font=("Kalinga", 50, "bold"))
+    pen.write("6", align="center", font=("Kalinga", 25, "bold"))
 
     #number 7 
     pen.penup()
     pen.hideturtle()
     pen.goto(-170, -325)
-    pen.write("7", align="center", font=("Kalinga", 50, "bold"))
+    pen.write("7", align="center", font=("Kalinga", 25, "bold"))
 
     #number 8 
     pen.penup()
     pen.hideturtle()
     pen.goto(-300, -200)
-    pen.write("8", align="center", font=("Kalinga", 50, "bold"))
+    pen.write("8", align="center", font=("Kalinga", 25, "bold"))
 
     #number 9
     pen.penup()
     pen.hideturtle()
     pen.goto(-340, -30)
-    pen.write("9", align="center", font=("Kalinga", 50, "bold"))
+    pen.write("9", align="center", font=("Kalinga", 25, "bold"))
 
     #number 10
     pen.penup()
     pen.hideturtle()
     pen.goto(-280, 140)
-    pen.write("10", align="center", font=("Kalinga", 50, "bold"))
+    pen.write("10", align="center", font=("Kalinga", 25, "bold"))
 
     #number 11
     pen.penup()
     pen.hideturtle()
     pen.goto(-160, 260)
-    pen.write("11", align="center", font=("Kalinga", 50, "bold"))
+    pen.write("11", align="center", font=("Kalinga", 25, "bold"))
 
     #number 12 
     pen.penup()
     pen.hideturtle()
     pen.goto(0, 300)
-    pen.write("12", align="center", font=("Kalinga", 50, "bold"))
+    pen.write("12", align="center", font=("Kalinga", 25, "bold"))
 
 while True:
     hr = int(time.strftime("%I"))
