@@ -7,14 +7,3 @@
 ######################
 
 
-import math
-import time
-
-class main(Tkinter.Tk):
-    def__init__(self):
-        Tkinter.Tk.__init__(self)
-        self.x=150
-        self.y=150
-        self.length=50
-        self.creating_all_function_trigger
-        
